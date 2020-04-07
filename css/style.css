@@ -1,0 +1,131 @@
+header{
+    background-color: #eaaf46;
+    height: 126px;
+}
+.container {
+    max-width: 852px;
+}
+h1{
+    color: #eaaf46;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 0;
+    /* line-height: 180px; */
+}
+.headerlogo {
+    padding: 16px 0px 0px 44px;
+}
+.headerlogo img{
+    max-width: 100%;
+}
+.content-title {
+}
+.content-title p{
+    color: #000000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* line-height: 180px; */
+}
+.content-title__text {
+}
+.content-image {
+    max-width: 696px;
+    max-height: 371px;
+    margin: 0 auto;
+    overflow: hidden;    
+}
+.content-image img{
+    width: 100%;
+    /* position: absolute; */
+}
+.content-news {
+    max-width: 696px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.content-news__block{
+    margin-bottom: 41px;
+}
+.content-news h2{
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.content-news__img {
+    max-width: 336px;
+    max-height: 225px;
+    overflow: hidden;
+}
+.content-news__img img{
+    width: 100%;
+}
+.content-news__text {
+}
+.content-news__text h3{
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.content-news__text p{
+    color: #000000;
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Arial MT";
+    /* line-height: 25px; */
+    }
+.content-news__button {
+    width: 186px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: #eaaf46;
+}
+.content-news__button a{
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.order-last {
+}
+.order-first {
+}
+.footer-top {
+    height: 133px;
+    background-color: #eaaf46;
+    }
+.footer-top p{
+    color: #000000;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.social-links1 {
+}
+.col-sm-6 {
+}
+.social-links2 {
+}
+.footer-bottom {
+height: 90px;
+}
+.footer-bottom__link {
+}
+.footer-bottom__link a{
+    line-height: 90px;
+}
+.col-md-2 {
+}
+.col-md-4 {
+}
