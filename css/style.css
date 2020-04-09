@@ -5,6 +5,10 @@ header{
 .container {
     max-width: 852px;
 }
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 h1{
     color: #eaaf46;
     font-family: 'Bebas Neue', cursive;
@@ -103,11 +107,15 @@ h1{
     line-height: 25px;
 }
 .social-links1 {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.social-links1 a:hover{
     text-decoration: none;
 }
-/* .social-links1 a:hover{
-} */
+.social-links1 i:hover{
+    color: #006eff;
+    transition: all 200ms ease;
+}
 .footer-bottom {
 height: 90px;
 }
@@ -116,36 +124,9 @@ height: 90px;
     color: #000000;
     font-family: "Arial MT";
 }
-.social-links1 i{
-    width: 300px;
-    height: 310px;
-}
-.facebook {
-    background-image: url(../image-assets/Icons/Facebook-icon.png);
-}
-.dots {
-    background-image: url(../image-assets/Icons/2dots-icon.png);
-}
-.googleplus {
-    background-image: url(../image-assets/Icons/GooglePlus-icon.png);
-}
-.instagram {
-    background-image: url(../image-assets/Icons/Instagram-icon.png);
-}
-.linkdin {
-    background-image: url(../image-assets/Icons/In-icon.png);
-}
-.pinetrest {
-    background-image: url(../image-assets/Icons/Pintrest-icon.png);
-}
-.tumblr {
-    background-image: url(../image-assets/Icons/Tumblr-icon.png);
-}
-.twitter {
-    background-image: url(../image-assets/Icons/Twitter-icon.png);
-}
-.vimeo {
-    background-image: url(../image-assets/Icons/Vimeo-icon.png);
+.fa{
+    font-size: 30px;
+    color: black;
 }
 
 @media (max-width: 420px){
