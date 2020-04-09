@@ -37,6 +37,7 @@ h1{
 }
 .content-image img{
     width: 100%;
+    margin-top:-170px;
 }
 .content-news {
     max-width: 696px;
@@ -119,10 +120,12 @@ h1{
 .footer-bottom {
 height: 90px;
 }
-.footer-bottom__link a{
+.footer-bottom a{
     line-height: 90px;
     color: #000000;
     font-family: "Arial MT";
+    margin: 0 15px;
+    white-space: nowrap;
 }
 .fa{
     font-size: 30px;
@@ -132,5 +135,8 @@ height: 90px;
 @media (max-width: 420px){
     .headerlogo{
         padding: 16px 0px 0px 0px;
+    }
+    .content-image img{
+        margin-top: 0;
     }
 }
